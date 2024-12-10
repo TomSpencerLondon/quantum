@@ -35,17 +35,11 @@ qc = QuantumCircuit(2)
 qc.h(0)
 qc.cx(0, 1)
 ```
-- **`qc.h(0)`**:
-  - Applies a **Hadamard gate** to the first qubit (`q0`), creating a superposition:
-    \[
-    |0⟩ \rightarrow \frac{|0⟩ + |1⟩}{\sqrt{2}}
-    \]
-- **`qc.cx(0, 1)`**:
-  - Applies a **CNOT (controlled-NOT) gate** with `q0` as the control qubit and `q1` as the target.
-  - This creates an **entangled state**:
-    \[
-    |\psi⟩ = \frac{|00⟩ + |11⟩}{\sqrt{2}}
-    \]
+- Applies a **Hadamard gate** to the first qubit (`q0`), creating a superposition:
+  $|0⟩ \rightarrow \frac{|0⟩ + |1⟩}{\sqrt{2}}$
+
+- Creates an **entangled state**:
+  $|\psi⟩ = \frac{|00⟩ + |11⟩}{\sqrt{2}}$
 
 ---
 
