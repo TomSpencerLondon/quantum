@@ -98,9 +98,8 @@ plot_histogram(counts)
 
 ### Final Quantum State
 The quantum circuit produces the entangled state:
-\[
-|\psi⟩ = \frac{|00⟩ + |11⟩}{\sqrt{2}}
-\]
+
+|ψ⟩ = (|00⟩ + |11⟩) / √2
 
 ### Expected Measurement Results
 - The two qubits are **correlated**: both are either `00` or `11`.
